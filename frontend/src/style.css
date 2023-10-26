@@ -1,0 +1,237 @@
+@media (max-width: 768px) {
+  /* Styles for small screens */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for medium screens */
+}
+
+@media (min-width: 1025px) {
+  /* Styles for large screens */
+}
+
+
+.container{
+    background-color: #000;
+    }
+    
+    .form-container{
+        width: 1400px;
+        height: 900px;
+        border-radius: 60px;
+        background: #FFF;
+        padding-left: 190px;
+        margin-bottom: -200px;
+        margin-top: -20px;
+    }
+    
+    .logo{
+        width: 166px;
+    height: 51px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+    margin-top: 45px;
+    margin-left: 54px;
+    
+    }
+    
+    
+    h1 {
+      
+        color: #000;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+      margin: -20px;
+      margin-left: -160px;
+      padding:190px;
+      margin-bottom: -70px;
+      display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+       
+    }
+      
+    .button-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px; /* Adjust the margin as needed to create space between the logo and the text */
+    }
+      
+    
+    p{
+    color: #000;
+    margin-top:-90px;
+    margin-left: 40px;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    }
+    
+    
+    .google{
+        margin-top: 8px;
+        margin-bottom: 60px;
+        padding-bottom: 5px;
+        background-color: white;
+       width: 418px;
+       height: 52px;
+        font-family: Cabin;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        border: 1px solid gray;
+        
+    }
+    .google:hover {
+        background-color: #f5e145;
+        cursor: pointer;
+    }
+    
+    .separator-text{
+        margin-top: -26px;
+        margin-left: -8px;
+        position: relative;
+        color: #909090;
+    font-family: Cabin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 170px;
+    height: 11px;
+    gap:20px;
+    }
+    
+    .separator-line{
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: -6px;
+        margin-top: -3px;
+        
+    }
+    
+      
+      .separator::before,
+      .separator::after {
+        content: "";
+        display: inline-block;
+        width: 70px; /* Adjust the width of the lines */
+        height: 2px; /* Adjust the height and thickness of the lines */
+        background-color :gray; /* Line color */
+        margin: 0 10px; /* Adjust the spacing between the lines and text */
+      }
+      
+      .separator::before {
+        margin-left: 120px; /* Adjust the spacing to the left of the text */
+      }
+      
+      .separator::after {
+        margin-right: 0; /* Adjust the spacing to the right of the text */
+      }
+      
+    
+    /* input box style Layout*/
+    input{
+     width: 420px;
+     height:auto 196px;
+    font-size: 20px;
+    flex-shrink: 0;
+    
+    border-radius: 6px;
+    border: 1px solid #D2D2D2;
+    
+    padding: 10px;
+    margin-top: 20px; /* Adds a 20-pixel gap */
+    margin-bottom: 20px;
+    /* text */
+    color: #2E2E2E;
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    /* placeholder */
+    input::placeholder {
+    color: #2E2E2E;
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+      }
+    
+    
+    /* checkbox */
+    .remember-me {
+        margin-left: -199px;
+        gap: 10px; /* Adjust the gap value to control the spacing between the checkbox and text */
+      }
+      .remember-me span {
+        margin-left: -199px; /* Adjust the margin-right value to move the text to the left */
+      }
+      
+      .register {
+        width: 420px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 30px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    
+    font-family: Cabin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+        /* Optional: Add a hover effect */
+        &:hover {
+          background-color: #363636;
+          cursor: pointer;
+        }
+      }
+      
+    .login {
+        color: #000;
+    margin-top: 30px;
+    
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    a{
+        color: #FEC00F;
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Urbanist;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+      
+    /* side image */
+    .side{
+        display: flex;
+    }
+     .side img{
+        width: 1027px;
+        height: 900px;
+        margin-left: 499px;
+        margin-top: -890px;
+        border-radius: 60px;
+     }
